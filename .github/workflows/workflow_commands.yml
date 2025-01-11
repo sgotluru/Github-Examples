@@ -12,12 +12,12 @@ jobs:
                 echo "World"
                 echo "::endgroup::"
             - name: "step one"
-                run: |
-                    echo "This is step one"
-                    echo "x=10" >> $GITHUB_ENV
+              run: |
+                echo "This is step one"
+                echo "x=10" >> $GITHUB_ENV
             - name: "step two"
-                run: echo "This is step two"
+              run: echo "This is step two"
             - name: "step three"
-                run: |
-                    echo "This is step three"
-                    echo "x=$x"
+              run: |
+                echo "This is step three"
+                echo "x=$x"

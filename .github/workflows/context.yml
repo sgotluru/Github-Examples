@@ -14,7 +14,7 @@ jobs:
             run: "echo \"Repository: ${{ github.repository }}\""
     
           - name: Print Job context
-            run: "echo \"Job ID: ${{ job.id }}\""
+            run: "echo \"Job ID: ${{ github.run_id }}\""
     
           - name: Print Runner context
             run: "echo \"Runner OS: ${{ runner.os }}\""
